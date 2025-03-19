@@ -57,7 +57,6 @@ class _CalcPageState extends State<CalcPage> {
     Expression exp = p.parse(question);
     ContextModel cm = ContextModel();
     double eval = exp.evaluate(EvaluationType.REAL, cm);
-
     answer = eval.toString();
   }
 
@@ -75,7 +74,7 @@ class _CalcPageState extends State<CalcPage> {
                 Container(
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(8),
-                    color: Colors.white,
+                    color: Colors.white70,
                   ),
                   padding: EdgeInsets.all(15),
                   alignment: Alignment.bottomLeft,
@@ -84,7 +83,7 @@ class _CalcPageState extends State<CalcPage> {
                 Container(
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(8),
-                    color: Colors.white,
+                    color: Colors.white70,
                   ),
 
                   padding: EdgeInsets.all(15),

@@ -19,7 +19,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'My Calculator',
-      home: Scaffold(backgroundColor: Colors.white70, body: CalcPage()),
+      home: Scaffold(backgroundColor: Colors.white10, body: CalcPage()),
     );
   }
 }

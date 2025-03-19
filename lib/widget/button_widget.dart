@@ -23,7 +23,7 @@ class ButtonWidget extends StatelessWidget {
         child: ClipRRect(
           borderRadius: BorderRadius.circular(8.0),
           child: Container(
-            color: buttonBgColor,
+            decoration: BoxDecoration(color: buttonBgColor),
             child: Center(
               child: Text(
                 buttonText,
